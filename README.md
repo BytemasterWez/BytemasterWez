@@ -1,16 +1,24 @@
-## Hi there 👋
+# Wesley Stewart
 
-<!--
-**BytemasterWez/BytemasterWez** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build AI-assisted systems for retrieval, judgment, and action.
 
-Here are some ideas to get you started:
+My focus is on local-first and operator-facing tools that turn messy notes, links, and documents into usable memory, grounded answers, and decision-support workflows.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Featured projects
+
+### Garbage Collector
+A local-first personal intelligence system that ingests notes, links, and PDFs into structured, searchable memory with semantic retrieval, grounded chat, and related-item discovery.
+
+### Arbiter
+A judgment layer for AI and operator workflows, focused on ranking, evaluation, and action gating over retrieved or generated outputs.
+
+## What I care about
+
+- phased product execution
+- grounded retrieval and trust
+- judgment layers over raw information
+- systems that help operators act, not just chat
+
+## Current direction
+
+I’m building toward reusable AI workflow systems that combine ingestion, memory, retrieval, and judgment in ways that are practical, inspectable, and useful.
