@@ -1,33 +1,55 @@
-# Wesley Stewart
+# Hi, I'm Wesley
 
-I build AI-assisted systems for retrieval, judgment, and action.
+I build governed intelligence systems: modular AI-capable stacks that move from grounded context to bounded judgment through explicit intermediate objects, explicit runtime choices, and readable outputs.
 
-My focus is on local-first and operator-facing tools that turn messy notes, links, and documents into usable memory, grounded answers, and decision-support workflows.
+## Current focus
 
-Current architecture thread:
+My main public project is **Jigsaw**, which now demonstrates a governed forward pass:
 
-- Garbage Collector = memory substrate
-- Jigsaw = synthesis and kernel middle layer
-- Arbiter = judgment and decision membrane
+`gc_context_snapshot -> hypothesis_state -> case_input -> kernel_bundle_result -> arbiter_request -> arbiter_response`
 
-## Featured projects
+That forward pass currently includes:
 
-### Garbage Collector
-A local-first personal intelligence system that ingests notes, links, and PDFs into structured, searchable memory with semantic retrieval, grounded chat, and related-item discovery.
+- GC-backed context grounding
+- Controller-managed exploration state
+- Jigsaw case composition and kernel runtime
+- Arbiter as a bounded judgment membrane
+- readable product artifacts in Markdown and static HTML
+
+## Start here
+
+- **Jigsaw demo pack**: [governed forward-pass walkthrough and example outputs](https://github.com/BytemasterWez/Jigsaw/tree/main/docs/demo)
+- **Jigsaw case study**: [what was built, what changed, and why it matters](https://github.com/BytemasterWez/Jigsaw/blob/main/CASE_STUDY.md)
+- **Jigsaw operational proof**: [the bounded claims currently supported by the repo](https://github.com/BytemasterWez/Jigsaw/blob/main/OPERATIONAL_PROOF.md)
+
+## Core repos
 
 ### Jigsaw
-A modular kernel layer that converts a candidate into an explicit evidence bundle through standardized, auditable specialist components before judgment.
+
+Composition and runtime layer. Turns grounded inputs into bounded analytical cases, profile-driven execution, and readable outputs.
+
+### Garbage Collector
+
+Substrate intelligence layer. Ingests arbitrary material, preserves provenance, links related evidence, and surfaces grounded context.
 
 ### Arbiter
-A judgment layer for AI and operator workflows, focused on ranking, evaluation, and action gating over retrieved or generated outputs.
 
-## What I care about
+Judgment membrane. Consumes bounded cases and decides whether they are promoted, watchlisted, or rejected.
 
-- phased product execution
-- grounded retrieval and trust
-- judgment layers over raw information
-- systems that help operators act, not just chat
+## Why this work is different
 
-## Current direction
+The goal is not just capability. It is system legibility and governed execution.
 
-I’m building toward reusable AI workflow systems where memory, capability, and judgment stay separate, composable, inspectable, and useful.
+That means:
+
+- explicit contracts between layers
+- explicit decision boundaries
+- explicit failure boundaries
+- diagnosable behavior when things go wrong
+- action gated through a separate membrane rather than raw end-to-end model behavior
+
+## What comes next
+
+- human feedback on the product artifacts
+- case lifecycle and return-loop objects (`case_state`, `action_record`, `outcome_event`)
+- broader domain profiles on the same governed spine
