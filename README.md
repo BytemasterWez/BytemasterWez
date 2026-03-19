@@ -22,6 +22,10 @@ That forward pass currently includes:
 - **Jigsaw case study**: [what was built, what changed, and why it matters](https://github.com/BytemasterWez/Jigsaw/blob/main/CASE_STUDY.md)
 - **Jigsaw operational proof**: [the bounded claims currently supported by the repo](https://github.com/BytemasterWez/Jigsaw/blob/main/OPERATIONAL_PROOF.md)
 
+For research or commercial contact:
+
+- `stratascout.research@gmail.com`
+
 ## Core repos
 
 ### Jigsaw
